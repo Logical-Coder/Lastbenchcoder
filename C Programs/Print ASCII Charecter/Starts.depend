@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1598946784 source:c:\users\mjpra\documents\c programs\starts\main.c
+	<stdio.h>
+	<conio.h>
+
