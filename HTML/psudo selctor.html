@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>More on selectors</title>
+    <style>
+div ul{
+
+    background-color: rgb(38, 0, 255);
+    border: 2px solid black;
+    float: left;
+    padding-right: 100px;
+    padding: 20px 20px;
+    margin-left: 10px;
+}
+.container{
+    margin: 34px 34px;
+    display: block;
+    width: 200px;
+    margin: auto;
+
+}
+input{
+    display: block;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+input[type='text']{
+    background-color: white;
+    padding: 0px 10px 0px 10px;
+    border: 2px solid red;
+}
+input[type='password']{
+    background-color: white;
+    border: 2px solid red;
+    padding: 0px 10px 0px 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="" class="formcontro">
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder=" Enter Your password">
+            <input type="Submit" value="Submit">
+        </form>
+        <ul>
+            <li class="item" id="item1">one</li>
+            <li class="item" id="item2">two</li>
+            <li class="item" id="item3">three</li>
+            <li class="item" id="item4">four</li>
+            <li class="item" id="item5">five</li>
+        </ul>
+    </div>
+</body>
+</html>

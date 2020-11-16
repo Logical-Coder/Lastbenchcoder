@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>More on selectors</title>
+</head>
+<style>
+    /* div p {
+        background-color: green;
+        border: 2px solid black;
+        font-size: 20px;
+        text-align: center; */
+    /* } */
+    /* div > p {
+
+        background-color: yellow;
+        border: 2px solid red;
+        font-size: 15px;
+        text-align: left; 
+    } */
+    div + p{
+        background-color: salmon;
+        border: 2px solid red;
+        font-size: 15px;
+        text-align: left; 
+
+    }
+</style>
+
+<body>
+    <h1>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <ul>
+                        <li class="item" ><p>This is list paragraph inside li</p></li>
+                        <li class="item" ><p>This is list paragraph inside li</p></li>
+                        <li>this is not get affected
+                        </li>
+                        
+                    </ul>   
+                </div>
+                <div>
+                    <p>This is first paragraph</p>
+                    <p>this is second paragraph</p>
+                    <p>third </p>
+                    <p>fourt</p>
+                </div>
+                <p>this is second paragraph</p> 
+            </div>
+            <p>this is second paragraph</p>
+        </div>
+        
+    </h1>
+</body>
+
+</html>

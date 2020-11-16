@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(255, 255, 255);
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+div {
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+  text-justify: auto;
+  background-color: rgb(255, 73, 73);
+  height: 300px;
+  width: 200px;
+  border: black 1px solid;
+}
+div h4 {
+  margin: 0px;
+}
+div p {
+  margin: 0px;
+}
+#box1 {
+  height: 200px;
+  width: 200px;
+  background-color: skyblue;
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  border: black 1px solid;
+}
+#box2 {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  background-color: red;
+  padding: 20px;
+  margin: 20px;
+  border: black 1px solid;
+}

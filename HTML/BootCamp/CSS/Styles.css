@@ -1,0 +1,32 @@
+
+
+    #Profile img {
+        border-radius: 100%;
+        border: 1px solid blueviolet;
+    }
+    #name{
+        font-size: x-large;
+    }
+    a:hover{
+        color: white;
+        background-color: black;
+    }
+
+
+    /* table tr {
+        border: 1px solid white;
+        border-style: none;
+    }
+
+    table tr td {
+        border: 1px solid white;
+        border-style: none;
+    } */
+
+    hr {
+        border-color: rgb(0, 0, 0);
+        border-style: dashed solid;
+        height: 0px;
+        width: 100%;
+
+    }
